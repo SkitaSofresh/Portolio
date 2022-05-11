@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="bg-dark">
     <!-- Navbar -->
     <Section>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mt-4">
@@ -19,7 +19,7 @@
           <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                <a class="nav-link active" aria-current="page" href="#aboutme">About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Technologies</a>
@@ -41,9 +41,9 @@
         <div class="container">
             <div class="d-md-flex justify-content-center align-items-center my-5">
                 <div class="text-center">
-                    <h4>FullStack <span class="text-warning">Web Developer</span></h4>
-                    <p class="lead my-4">Designing, building, and maintaining Java-based applications & websites</p>
-                    <button class="btn btn-primary btn-lg">Weclome</button>
+                    <h4>FullStack Java <span class="text-warning">Web Developer</span></h4>
+                    <h4 class="lead my-4 text-muted">Designing, building, and maintaining Java-based applications & websites</h4>
+                    <button class="btn btn-warning btn-lg">Weclome</button>
                 </div>
                 <img src="./images/pro-image.webp" alt="" class="img-fluid w-50 rounded d-none d-sm-block">
             </div>
@@ -51,10 +51,60 @@
 
     </section>
     <!-- About me -->
+    <section class="bg-success text-center-md container-fluid" id="aboutme">
+      <div class="container">
+        <h2 class="text-center text-warning"> Quote: “Just one small positive thought in the morning can change your whole day.”</h2>
+
+    </section>
 
     <!-- Skills -->
+    <section class="bg-dark">
+      <div class="container d-flex ms-auto px-5 my-5">
+        <div class="card mx-4 bg-success" style="width: 18rem;">
+          <img src="./images/java-logo.png" class="card-img-top img-fluid h-75" alt="..." style="height: 5rem;" >
+          <div class="card-body">
+            <h5 class="card-title">Java</h5>
+            <p class="card-text">Under Construction.</p>
+            <a href="#" class="btn btn-info">View Now</a>
+          </div>
+        </div>
+        <div class="card mx-4 bg-warning" style="width: 18rem;">
+          <img src="./images/html-css-javascript.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">html Css &Javascript</h5>
+            <p class="card-text">Under construction.</p>
+            <a href="#" class="btn btn-primary">View Now</a>
+          </div>
+        </div>
+        <div class="card mx-4 bg-primary" style="width: 18rem;">
+          <img src="./images/django-python.jpg" class="card-img-top img-fluid" alt="Django logo">
+          <div class="card-body">
+            <h5 class="card-title">Django-Python</h5>
+            <p class="card-text">Under Construction.</p>
+            <a href="#" class="btn btn-warning">View Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!--  -->
+    <!-- contact form -->
+    <section class="bg-warning">
+      <h3 class="bg-success text-center">Contact Me</h3>
+      <div class="container">
+        
+        <div class="mb-3">
+          <label for="username" class="form-label">Enter your name: </label>
+          <input type="text" class="form-control bg-info text-dark" id="username" placeholder="User Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="text" class="form-control bg-info text-dark" id="email" placeholder="Email Address">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+
+      </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
